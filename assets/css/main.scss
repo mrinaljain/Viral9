@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+//@import "component/fonts_proxima";
+//@import "component/variable";
+@import "style.scss";
+@import "dashboard.scss";
+//h1, h2, h3, h4, h5, h6 ,p,a{ margin:$margin-none;font-family: $font-family-light,serif;}
+body,
+html {
+  background-color: #ffffff;
+  //  font-family: $font-family-light,
+  //serif;
+}

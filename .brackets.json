@@ -1,0 +1,20 @@
+{
+    "path": {
+        "assets/css/main.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "outputDir": "../css/",
+                "imagePath": null,
+                "sourceComments": "map",
+                "outputStyle": "nested"
+            },
+            "bb.beautify.onSave": true,
+            "mikaeljorhult.bracketsAutoprefixer.visualCascade": true,
+            "mikaeljorhult.bracketsAutoprefixer.browsers": [
+                "[object Object]",
+                "webkit"
+            ],
+            "linting.collapsed": true
+        }
+    }
+}

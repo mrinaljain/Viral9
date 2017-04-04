@@ -1,0 +1,291 @@
+/* line 1, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.btn {
+  color: #ffffff; }
+
+/* line 4, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.btn.focus,
+.btn:focus,
+.btn:hover {
+  color: #ffffff;
+  text-decoration: none; }
+
+/* line 10, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+a {
+  color: #a3a3a3;
+  text-decoration: none; }
+
+/* line 14, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.logo img {
+  width: 50%; }
+
+/* line 17, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.container .user-details {
+  height: 100vh;
+  background: #f2f2f2;
+  display: none; }
+
+/* line 22, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.container .user-campaigns {
+  background-color: white; }
+
+/* line 25, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.search-bar {
+  color: #727272; }
+
+/* line 28, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.btn-search {
+  background: #f2f2f2;
+  border: none;
+  height: 100%;
+  outline: none;
+  border: 0;
+  box-shadow: none; }
+
+/* line 36, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.btn-search i {
+  color: #727272; }
+
+/* line 39, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+button.btn.btn-search:hover {
+  box-shadow: none; }
+
+/* line 42, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.campaign-search {
+  background-color: #f2f2f2; }
+
+/* line 45, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+::-webkit-input-placeholder {
+  color: #727272 !important;
+  font-size: 15px; }
+
+/* line 49, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.breadcrumb {
+  padding-left: 0px; }
+
+/* line 53, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.rates p span {
+  margin: 0px 8px; }
+
+/* line 56, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.rates p .country {
+  background-color: transparent;
+  color: #727272;
+  margin: 0px 7px; }
+
+/* line 61, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.user-campaigns h4 {
+  color: #323232; }
+
+/* line 64, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.heartButton {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: #eda02f;
+  cursor: pointer; }
+
+/* line 71, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.getLinkButton {
+  position: absolute;
+  top: 16px;
+  left: 10px;
+  padding: 3px 5px;
+  background-color: #ed9c26;
+  color: #ffffff;
+  display: none; }
+
+/* line 80, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.twoButtons {
+  display: none; }
+
+/* line 83, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.postButton,
+.scheduleButton {
+  font-size: .88em;
+  padding: 9px 12px; }
+
+/* line 88, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.portfolioFilter {
+  margin-top: 15px; }
+
+/* line 91, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.postButton {
+  background-color: #ed9c26;
+  margin-right: 10px; }
+
+/* line 95, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.scheduleButton {
+  background-color: #ea5f28; }
+
+/* line 98, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.thumb h5 {
+  line-height: 20px;
+  min-height: 60px; }
+
+/* line 102, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.thumb-active {
+  box-shadow: 8px 7px 9px rgba(136, 136, 136, 0.25);
+  position: absolute;
+  z-index: 1;
+  width: 95%; }
+
+/* line 108, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.advertiserDropdownbtn {
+  width: 100%;
+  color: #2d2d2d;
+  text-align: left;
+  border-radius: 4px;
+  border: none;
+  padding: 10px 10px 10px 20px; }
+
+/* line 116, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.dropdown-toggle .caret {
+  margin: 8px 8px 8px 0px;
+  color: #999999;
+  border-top: 6px dashed;
+  border-right: 6px solid transparent;
+  border-left: 6px solid transparent; }
+
+/* line 123, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.advertiserDropdownbtn.focus,
+.advertiserDropdownbtn:focus,
+.advertiserDropdownbtn:hover {
+  color: #2d2d2d;
+  box-shadow: none;
+  background-color: #ffffff !important; }
+
+/* line 130, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.advertiserDropdownMenu {
+  width: 100%; }
+
+/* line 133, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.user-details label {
+  color: #797979;
+  text-transform: uppercase; }
+
+/* line 137, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.user-details.form-group {
+  min-height: 50px;
+  padding: 20px 10px; }
+
+/* line 141, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.user-details.form-group label {
+  text-transform: capitalize;
+  font-size: 1em;
+  color: #191919; }
+
+/* line 146, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.toggle-slide,
+.toggle-blob {
+  border-radius: 100px; }
+
+/* line 150, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.minQueue {
+  line-height: 30px;
+  margin: 10px 0px; }
+
+/* line 154, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.wrapper {
+  background-color: #ffffff;
+  display: flex;
+  flex-flow: row nowrap;
+  min-height: 108px;
+  width: 85%;
+  margin-bottom: 10px;
+  margin: 10px auto; }
+
+/* line 163, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.wrapper-active {
+  box-shadow: 8px 7px 9px rgba(136, 136, 136, 0.25); }
+
+/* line 166, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.wrapper-short {
+  width: 100%;
+  /*	margin: 0 auto;*/ }
+
+/* line 170, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.icon {
+  align-self: center;
+  flex: 1 1 auto;
+  padding: 50px;
+  background-image: url(http://bed56888308e93972c04-0dfc23b7b97881dee012a129d9518bae.r34.cf1.rackcdn.com/sites/default/files/veggie-heart.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  transition: all 2s cubic-bezier(0.11, 1.47, 0.52, 0.37); }
+
+/* line 179, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.icon-overlay {
+  background: #ea5f28; }
+
+/* line 182, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.contents {
+  background-color: #ffffff;
+  color: #4f4f4f;
+  flex: 12 1 auto;
+  padding: 15px 5px;
+  font-size: .9em;
+  font-weight: bolder;
+  display: none; }
+
+/* line 191, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.content-short {
+  display: block; }
+
+/* line 194, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.schedulePostbtn {
+  background-color: #ea5f28; }
+
+/* line 197, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.queueBtn {
+  display: none; }
+
+/* line 200, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+a.postQueue {
+  color: #eb6a36;
+  margin-right: 15px; }
+
+/* line 204, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+#openQueue {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: black;
+  background: rgba(0, 0, 0, 0.7);
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-decoration: none;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  /*	display: none;*/
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+/* line 224, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+#openQueue i {
+  color: #fff;
+  margin: 0;
+  position: relative;
+  left: 16px;
+  top: 13px;
+  font-size: 19px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+/* line 237, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+#openQueue:hover {
+  background: rgba(0, 0, 0, 0.9); }
+
+/* line 240, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+#openQueue:hover i {
+  color: #fff;
+  top: 5px; }
+
+/*# sourceMappingURL=style.css.map */
