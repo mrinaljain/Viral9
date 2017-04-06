@@ -838,24 +838,27 @@ a.postQueue {
     margin-top: 50px; }
 
 /* line 887, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
-.content-page.dashboardContent {
+.content-page.dashboardContent,
+.content-page.mytagContent {
   margin-left: 0px; }
-  /* line 889, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
-  .content-page.dashboardContent .content {
+  /* line 890, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+  .content-page.dashboardContent .content,
+  .content-page.mytagContent .content {
     padding: 0px 0px 15px 0px; }
-    /* line 891, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
-    .content-page.dashboardContent .content .container {
+    /* line 892, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+    .content-page.dashboardContent .content .container,
+    .content-page.mytagContent .content .container {
       padding-right: 0px;
       padding-left: 0px; }
 
-/* line 898, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+/* line 899, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
 .dashboard {
   background-color: #ffffff; }
-  /* line 907, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+  /* line 908, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
   .dashboard .userDetailDiv {
     background-color: #3e23d9;
     padding: 0px 20px; }
-    /* line 910, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+    /* line 911, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
     .dashboard .userDetailDiv .mini-stat {
       -moz-border-radius: 3px;
       -webkit-border-radius: 3px;
@@ -863,7 +866,7 @@ a.postQueue {
       padding: 20px;
       padding-bottom: 5px;
       color: #ffffff; }
-      /* line 918, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+      /* line 919, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
       .dashboard .userDetailDiv .mini-stat .mini-stat-icon {
         -moz-border-radius: 100%;
         -webkit-border-radius: 100%;
@@ -877,103 +880,103 @@ a.postQueue {
         margin-right: 20px;
         text-align: center;
         width: 80px; }
-      /* line 932, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+      /* line 933, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
       .dashboard .userDetailDiv .mini-stat .mini-stat-info {
         padding-top: 2px;
         font-size: 18px; }
-        /* line 936, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+        /* line 937, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
         .dashboard .userDetailDiv .mini-stat .mini-stat-info .name {
           display: block;
           font-size: 25px;
           font-weight: 600;
           margin-top: 10px; }
-      /* line 943, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+      /* line 944, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
       .dashboard .userDetailDiv .mini-stat ul.social-detail {
         color: #ffffff; }
-        /* line 945, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+        /* line 946, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
         .dashboard .userDetailDiv .mini-stat ul.social-detail li {
           list-style: none;
           line-height: 37px; }
-          /* line 948, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+          /* line 949, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
           .dashboard .userDetailDiv .mini-stat ul.social-detail li i {
             vertical-align: middle; }
-          /* line 951, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+          /* line 952, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
           .dashboard .userDetailDiv .mini-stat ul.social-detail li .social-detail-text {
             margin-left: 20px;
             font-weight: 600;
             font-size: 16px; }
-    /* line 960, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+    /* line 961, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
     .dashboard .userDetailDiv .userRank .mini-stat-icon {
       border-radius: 4px !important;
       background: #ffffff !important;
       margin-right: 44px !important; }
-      /* line 964, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+      /* line 965, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
       .dashboard .userDetailDiv .userRank .mini-stat-icon img {
         width: 60%;
         height: 100%;
         margin: 0 auto; }
-    /* line 970, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+    /* line 971, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
     .dashboard .userDetailDiv .userRank .mini-stat-info {
       font-size: 13px !important;
       line-height: 1.25; }
-      /* line 973, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+      /* line 974, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
       .dashboard .userDetailDiv .userRank .mini-stat-info .rank {
         display: block;
         font-size: 45px;
         font-weight: 600; }
-    /* line 982, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+    /* line 983, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
     .dashboard .userDetailDiv .userName .mini-stat {
       padding-left: 40px; }
-    /* line 987, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+    /* line 988, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
     .dashboard .userDetailDiv .userDetail .mini-stat {
       padding-top: 5px; }
-  /* line 992, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+  /* line 993, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
   .dashboard .userEarningDiv {
     padding: 20px; }
-    /* line 994, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+    /* line 995, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
     .dashboard .userEarningDiv .panel {
       border: solid 2px #f1f1f1;
       border-radius: 1px; }
-      /* line 997, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+      /* line 998, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
       .dashboard .userEarningDiv .panel .bordernew {
         box-shadow: none;
         border-left: 0px none;
         border-top: 0px none;
         border-bottom: 0; }
-        /* line 1002, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+        /* line 1003, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
         .dashboard .userEarningDiv .panel .bordernew.diff {
           border: 0; }
-      /* line 1009, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+      /* line 1010, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
       .dashboard .userEarningDiv .panel .today .panel .panel-heading .panel-title {
         font-size: 2rem;
         color: #000000;
         line-height: 1.75;
         font-weight: bold;
         text-transform: capitalize; }
-      /* line 1012, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+      /* line 1013, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
       .dashboard .userEarningDiv .panel .today .panel .panel-heading .todayEarning {
         color: #1FADF5;
         font-size: 4rem;
         font-weight: bold; }
-      /* line 1018, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+      /* line 1019, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
       .dashboard .userEarningDiv .panel .today .panel .panel-body {
         padding: 5px; }
-        /* line 1021, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+        /* line 1022, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
         .dashboard .userEarningDiv .panel .today .panel .panel-body .chartone canvas {
           width: 200px !important;
           height: 118px !important; }
-      /* line 1035, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+      /* line 1036, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
       .dashboard .userEarningDiv .panel .pastEarning .panel-body,
       .dashboard .userEarningDiv .panel .weekEarning .panel-body,
       .dashboard .userEarningDiv .panel .ammountPaid .panel-body {
         padding: 10px 0px 20px 0px; }
-        /* line 1037, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+        /* line 1038, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
         .dashboard .userEarningDiv .panel .pastEarning .panel-body .yesterday,
         .dashboard .userEarningDiv .panel .weekEarning .panel-body .yesterday,
         .dashboard .userEarningDiv .panel .ammountPaid .panel-body .yesterday {
           margin-bottom: 25px;
           margin-top: 5px; }
-          /* line 1040, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+          /* line 1041, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
           .dashboard .userEarningDiv .panel .pastEarning .panel-body .yesterday .yesterdaytext,
           .dashboard .userEarningDiv .panel .weekEarning .panel-body .yesterday .yesterdaytext,
           .dashboard .userEarningDiv .panel .ammountPaid .panel-body .yesterday .yesterdaytext {
@@ -984,20 +987,20 @@ a.postQueue {
             font-size: 1.25rem;
             line-height: 1.5;
             text-transform: capitalize; }
-          /* line 1049, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+          /* line 1050, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
           .dashboard .userEarningDiv .panel .pastEarning .panel-body .yesterday .yesterdayamount,
           .dashboard .userEarningDiv .panel .weekEarning .panel-body .yesterday .yesterdayamount,
           .dashboard .userEarningDiv .panel .ammountPaid .panel-body .yesterday .yesterdayamount {
             font-size: 3.5rem;
             color: #000000;
             font-weight: bold; }
-        /* line 1055, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+        /* line 1056, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
         .dashboard .userEarningDiv .panel .pastEarning .panel-body .lastmonth,
         .dashboard .userEarningDiv .panel .weekEarning .panel-body .lastmonth,
         .dashboard .userEarningDiv .panel .ammountPaid .panel-body .lastmonth {
           margin-bottom: 25px;
           margin-top: 5px; }
-          /* line 1058, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+          /* line 1059, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
           .dashboard .userEarningDiv .panel .pastEarning .panel-body .lastmonth .lastmonthtext,
           .dashboard .userEarningDiv .panel .weekEarning .panel-body .lastmonth .lastmonthtext,
           .dashboard .userEarningDiv .panel .ammountPaid .panel-body .lastmonth .lastmonthtext {
@@ -1008,7 +1011,7 @@ a.postQueue {
             font-size: 1.25rem;
             line-height: 1.5;
             text-transform: capitalize; }
-          /* line 1067, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+          /* line 1068, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
           .dashboard .userEarningDiv .panel .pastEarning .panel-body .lastmonth .lastmonthamount,
           .dashboard .userEarningDiv .panel .weekEarning .panel-body .lastmonth .lastmonthamount,
           .dashboard .userEarningDiv .panel .ammountPaid .panel-body .lastmonth .lastmonthamount {
@@ -1016,24 +1019,24 @@ a.postQueue {
             color: #000000;
             font-weight: bold;
             text-transform: capitalize; }
-  /* line 1084, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+  /* line 1085, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
   .dashboard .userStatsDiv {
     padding-left: 20px;
     padding-right: 20px; }
-    /* line 1088, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+    /* line 1089, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
     .dashboard .userStatsDiv .sitedetail .panel {
       box-shadow: none; }
-      /* line 1090, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+      /* line 1091, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
       .dashboard .userStatsDiv .sitedetail .panel .panel-heading {
         border-radius: 0px; }
-    /* line 1094, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+    /* line 1095, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
     .dashboard .userStatsDiv .sitedetail .panel-body {
       padding: 10px 0px 20px 0px; }
-      /* line 1096, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+      /* line 1097, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
       .dashboard .userStatsDiv .sitedetail .panel-body .yesterday {
         margin-bottom: 25px;
         margin-top: 5px; }
-        /* line 1099, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+        /* line 1100, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
         .dashboard .userStatsDiv .sitedetail .panel-body .yesterday .yesterdaytext {
           color: #777;
           font-weight: bold;
@@ -1042,16 +1045,16 @@ a.postQueue {
           font-size: 1.75rem;
           line-height: 1.5;
           text-transform: capitalize; }
-        /* line 1108, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+        /* line 1109, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
         .dashboard .userStatsDiv .sitedetail .panel-body .yesterday .yesterdayamount {
           font-size: 3.5rem;
           color: #000000;
           font-weight: bold; }
-      /* line 1114, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+      /* line 1115, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
       .dashboard .userStatsDiv .sitedetail .panel-body .lastmonth {
         margin-bottom: 25px;
         margin-top: 5px; }
-        /* line 1117, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+        /* line 1118, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
         .dashboard .userStatsDiv .sitedetail .panel-body .lastmonth .lastmonthtext {
           color: #777;
           font-weight: bold;
@@ -1060,144 +1063,352 @@ a.postQueue {
           font-size: 1.75rem;
           line-height: 1.5;
           text-transform: capitalize; }
-        /* line 1126, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+        /* line 1127, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
         .dashboard .userStatsDiv .sitedetail .panel-body .lastmonth .lastmonthamount {
           font-size: 3.5rem;
           color: #000000;
           font-weight: bold;
           text-transform: capitalize; }
-    /* line 1136, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+    /* line 1137, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
     .dashboard .userStatsDiv .countrystat .panel {
       box-shadow: none; }
-    /* line 1142, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+    /* line 1143, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
     .dashboard .userStatsDiv .countrystat .table thead tr th {
       border: none;
       color: #000000;
       font-weight: 400;
       font-size: 1.75rem; }
-    /* line 1152, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+    /* line 1153, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
     .dashboard .userStatsDiv .countrystat .table tbody tr th {
       border: none;
       color: #696969;
       font-weight: 500;
       font-size: 1.5rem; }
-    /* line 1158, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+    /* line 1159, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
     .dashboard .userStatsDiv .countrystat .table tbody tr td {
       border: none;
       color: #696969;
       font-weight: 500;
       font-size: 1.5rem; }
-    /* line 1170, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+    /* line 1171, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
     .dashboard .userStatsDiv .timegraph .panel .panel-heading {
       border-color: #e2e2e2 !important;
       border-radius: 0px; }
-      /* line 1173, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+      /* line 1174, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
       .dashboard .userStatsDiv .timegraph .panel .panel-heading .panel-title {
         color: #ababab; }
-  /* line 1181, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+  /* line 1182, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
   .dashboard .userRankingDiv {
     padding-right: 20px;
     padding-left: 20px; }
-    /* line 1185, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+    /* line 1186, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
     .dashboard .userRankingDiv .earning .panel {
       border: solid 1px #e2e2e2; }
-      /* line 1187, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+      /* line 1188, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
       .dashboard .userRankingDiv .earning .panel .panel-heading {
         background-color: #1faef5;
         padding: 10px 10px 0px;
         border-radius: 0px; }
-        /* line 1191, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+        /* line 1192, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
         .dashboard .userRankingDiv .earning .panel .panel-heading .panel-title {
           color: #ffffff;
           font-size: 1.75rem; }
-        /* line 1195, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+        /* line 1196, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
         .dashboard .userRankingDiv .earning .panel .panel-heading .btn-toolbar {
           margin-top: 5px; }
-          /* line 1198, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+          /* line 1199, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
           .dashboard .userRankingDiv .earning .panel .panel-heading .btn-toolbar .btn-group .dropdown-menu {
             min-width: 85px;
             padding: 0px 0; }
-            /* line 1201, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+            /* line 1202, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
             .dashboard .userRankingDiv .earning .panel .panel-heading .btn-toolbar .btn-group .dropdown-menu .checkbox-row {
               padding: 0px 5px;
               cursor: pointer; }
-              /* line 1204, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+              /* line 1205, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
               .dashboard .userRankingDiv .earning .panel .panel-heading .btn-toolbar .btn-group .dropdown-menu .checkbox-row:hover {
                 background-color: #e2e2e2; }
-          /* line 1209, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+          /* line 1210, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
           .dashboard .userRankingDiv .earning .panel .panel-heading .btn-toolbar .btn-group .btn {
             padding: 0px 12px; }
-          /* line 1212, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+          /* line 1213, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
           .dashboard .userRankingDiv .earning .panel .panel-heading .btn-toolbar .btn-group .rankone,
           .dashboard .userRankingDiv .earning .panel .panel-heading .btn-toolbar .btn-group .ranktwo {
             border-radius: 4px; }
-          /* line 1216, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+          /* line 1217, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
           .dashboard .userRankingDiv .earning .panel .panel-heading .btn-toolbar .btn-group .rankone {
             color: #000000;
             margin-right: 10px; }
-          /* line 1220, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+          /* line 1221, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
           .dashboard .userRankingDiv .earning .panel .panel-heading .btn-toolbar .btn-group .ranktwo {
             color: #000000; }
-            /* line 1222, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+            /* line 1223, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
             .dashboard .userRankingDiv .earning .panel .panel-heading .btn-toolbar .btn-group .ranktwo .caret {
               margin: 6px 0px 5px 0px; }
-      /* line 1231, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+      /* line 1232, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
       .dashboard .userRankingDiv .earning .panel .panel-body .table thead {
         background-color: #1faef5; }
-        /* line 1233, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+        /* line 1234, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
         .dashboard .userRankingDiv .earning .panel .panel-body .table thead th {
           color: #ffffff !important;
           font-size: 1.25rem; }
-    /* line 1244, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+    /* line 1245, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
     .dashboard .userRankingDiv .performance .panel {
       border: solid 1px #e2e2e2; }
-      /* line 1246, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+      /* line 1247, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
       .dashboard .userRankingDiv .performance .panel .panel-heading {
         background-color: #1faef5;
         padding: 10px 10px 0px;
         border-radius: 0px; }
-        /* line 1250, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+        /* line 1251, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
         .dashboard .userRankingDiv .performance .panel .panel-heading .panel-title {
           color: #ffffff;
           font-size: 1.75rem; }
-      /* line 1257, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+      /* line 1258, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
       .dashboard .userRankingDiv .performance .panel .panel-body .table thead {
         background-color: #1faef5; }
-        /* line 1259, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+        /* line 1260, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
         .dashboard .userRankingDiv .performance .panel .panel-body .table thead th {
           color: #ffffff !important;
           font-size: 1.25rem;
           text-align: center; }
-      /* line 1269, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+      /* line 1270, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
       .dashboard .userRankingDiv .performance .panel .panel-body .table tbody tr th.pageName .pagecard .imgsmall {
         width: 50px;
         height: 50px; }
-        /* line 1273, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+        /* line 1274, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
         .dashboard .userRankingDiv .performance .panel .panel-body .table tbody tr th.pageName .pagecard .imgsmall img {
           width: 50px;
           height: 50px; }
-      /* line 1278, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+      /* line 1279, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
       .dashboard .userRankingDiv .performance .panel .panel-body .table tbody tr th.pageName .pagecard .pageNameText {
         padding-left: 10px; }
-        /* line 1280, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+        /* line 1281, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
         .dashboard .userRankingDiv .performance .panel .panel-body .table tbody tr th.pageName .pagecard .pageNameText .pagetext {
           color: #000000; }
-        /* line 1283, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+        /* line 1284, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
         .dashboard .userRankingDiv .performance .panel .panel-body .table tbody tr th.pageName .pagecard .pageNameText .pageLikes {
           margin-top: 2px;
           color: #cbcbcb;
           font-size: 1.20rem; }
-      /* line 1292, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+      /* line 1293, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
       .dashboard .userRankingDiv .performance .panel .panel-body .table tbody tr td.engagement .progress {
         height: 30px;
         margin-bottom: 0px;
         background-color: #fdf89f; }
-        /* line 1296, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+        /* line 1297, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
         .dashboard .userRankingDiv .performance .panel .panel-body .table tbody tr td.engagement .progress .progress-bar {
           background-color: #fee92b; }
-      /* line 1301, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+      /* line 1302, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
       .dashboard .userRankingDiv .performance .panel .panel-body .table tbody tr td.bouncerate,
       .dashboard .userRankingDiv .performance .panel .panel-body .table tbody tr td.earnd {
         text-align: center !important; }
+
+/* line 1315, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.mytagContent {
+  background-color: #f2f2f2; }
+  /* line 1317, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+  .mytagContent .mytagheader {
+    color: #ffffff;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #3e24d8; }
+    /* line 1327, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+    .mytagContent .mytagheader .usernameimage {
+      width: 90%;
+      margin: 0 auto;
+      float: none;
+      clear: both;
+      margin-bottom: 25px;
+      margin-top: 25px; }
+      /* line 1335, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+      .mytagContent .mytagheader .usernameimage .mini-stat-icon img {
+        border: solid 2px #ffffff; }
+      /* line 1339, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+      .mytagContent .mytagheader .usernameimage .mini-stat-info {
+        font-size: 2rem;
+        height: 60px;
+        line-height: 60px; }
+    /* line 1345, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+    .mytagContent .mytagheader .pagedescription {
+      width: 90%;
+      margin: 0 auto;
+      float: none;
+      clear: both; }
+      /* line 1350, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+      .mytagContent .mytagheader .pagedescription .headertextone {
+        font-size: 1.7rem; }
+    /* line 1354, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+    .mytagContent .mytagheader .pagedescriptionmore {
+      width: 90%;
+      margin: 0 auto;
+      float: none;
+      margin-bottom: 20px;
+      margin-top: 10px; }
+      /* line 1361, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+      .mytagContent .mytagheader .pagedescriptionmore .headertext .headertexttwo {
+        font-size: 3.75rem;
+        font-weight: 600; }
+      /* line 1365, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+      .mytagContent .mytagheader .pagedescriptionmore .headertext .headertextthree {
+        font-size: 1.7rem;
+        color: #bfc0f0; }
+      /* line 1371, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+      .mytagContent .mytagheader .pagedescriptionmore .headerbtn .getstartedbtn {
+        height: 97px;
+        text-align: right;
+        line-height: 97px; }
+        /* line 1375, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+        .mytagContent .mytagheader .pagedescriptionmore .headerbtn .getstartedbtn .btn {
+          background-color: #f84f00;
+          padding: 12px;
+          width: 275px;
+          font-weight: 600;
+          letter-spacing: .5px; }
+  /* line 1386, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+  .mytagContent .mytagbody {
+    padding: 5px;
+    width: 90%;
+    margin: 20px auto; }
+    /* line 1390, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+    .mytagContent .mytagbody .col-lg-6 {
+      padding: 0px; }
+    /* line 1393, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+    .mytagContent .mytagbody .articles {
+      display: flex;
+      overflow: hidden;
+      flex-wrap: wrap;
+      align-items: stretch; }
+    /* line 1399, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+    .mytagContent .mytagbody .articleShort {
+      display: flex;
+      flex: 1 1 0%; }
+    /* line 1404, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+    .mytagContent .mytagbody .articleMain {
+      display: flex;
+      flex: 1 1 100%; }
+    /* line 1408, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+    .mytagContent .mytagbody .card {
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      background-color: white;
+      padding: 10px 12px;
+      margin: 11px 9px;
+      width: 100%;
+      min-height: 170px;
+      transition: all cubic-bezier(0.82, 0.84, 0.91, 0.91) 0.5s; }
+      /* line 1418, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+      .mytagContent .mytagbody .card:hover {
+        box-shadow: 2px 2px 10px 4px rgba(58, 50, 50, 0.32); }
+      /* line 1421, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+      .mytagContent .mytagbody .card .card-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex: 1 1 auto; }
+        /* line 1426, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+        .mytagContent .mytagbody .card .card-content .editableTitle {
+          height: 50px;
+          max-width: 429px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          margin-top: 9px;
+          font-weight: 600; }
+        /* line 1435, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+        .mytagContent .mytagbody .card .card-content p,
+        .mytagContent .mytagbody .card .card-content h3 {
+          font-weight: 600;
+          padding-left: 33px; }
+          /* line 1440, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+          .mytagContent .mytagbody .card .card-content p.pageLikes,
+          .mytagContent .mytagbody .card .card-content h3.pageLikes {
+            color: #8c8c8c;
+            font-size: 1.6rem;
+            font-weight: normal;
+            margin-bottom: 30px; }
+        /* line 1447, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+        .mytagContent .mytagbody .card .card-content .tagsinput {
+          width: auto;
+          height: 45px;
+          margin: 0px 29px;
+          border: none; }
+          /* line 1452, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+          .mytagContent .mytagbody .card .card-content .tagsinput span.tag {
+            background: #d4d2ea;
+            color: #7e7e7e; }
+            /* line 1455, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+            .mytagContent .mytagbody .card .card-content .tagsinput span.tag a {
+              color: #7e7e7e; }
+        /* line 1460, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+        .mytagContent .mytagbody .card .card-content div.tagsinput input {
+          padding: 0px; }
+      /* line 1464, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+      .mytagContent .mytagbody .card .crossButton {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color: #ffffff;
+        cursor: pointer;
+        background-color: #eda02f;
+        border-radius: 2px;
+        padding: 1px 3px;
+        font-size: 2.20rem; }
+    /* line 1476, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+    .mytagContent .mytagbody .card-image {
+      min-width: 130px;
+      min-height: 120px;
+      width: 130px;
+      height: 130px;
+      padding: 75px;
+      background-image: url(file:///media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/images/small/bg.jpg);
+      background-size: 100%;
+      background-repeat: repeat; }
+      /* line 1486, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+      .mytagContent .mytagbody .card-image a img {
+        display: block;
+        max-width: 100%;
+        height: auto; }
+
+/* line 1497, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.box h3 {
+  text-align: center;
+  position: relative;
+  top: 80px; }
+
+/* line 1503, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.box {
+  width: 70%;
+  height: 200px;
+  background: #FFF;
+  margin: 40px auto; }
+
+/*==================================================
+ * Effect 2
+ * ===============================================*/
+/* line 1515, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.effect2 {
+  position: relative; }
+
+/* line 1519, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.effect2:before,
+.effect2:after {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width: 300px;
+  background: #777;
+  box-shadow: 0 15px 10px #777;
+  transform: rotate(-3deg); }
+
+/* line 1534, /media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/css/style.scss */
+.effect2:after {
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto; }
 
 /*# sourceMappingURL=style.css.map */

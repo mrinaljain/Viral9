@@ -884,7 +884,8 @@ a.postQueue {
   }
 }
 
-.content-page.dashboardContent {
+.content-page.dashboardContent,
+.content-page.mytagContent {
   margin-left: 0px;
   .content {
     padding: 0px 0px 15px 0px;
@@ -1309,4 +1310,229 @@ a.postQueue {
       }
     }
   }
+}
+
+.mytagContent {
+  background-color: #f2f2f2;
+  .mytagheader {
+    color: #ffffff;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #3e24d8;
+    //min-height: 100px;
+    //    background: -webkit-linear-gradient(left, #3e24d8, #8400d7);
+    //    background: -o-linear-gradient(left, #3e24d8, #8400d7);
+    //    background: -moz-linear-gradient(left, #3e24d8, #8400d7);
+    //    background: linear-gradient(left, #3e24d8, #8400d7);
+    .usernameimage {
+      width: 90%;
+      margin: 0 auto;
+      float: none;
+      clear: both;
+      margin-bottom: 25px;
+      margin-top: 25px;
+      .mini-stat-icon {
+        img {
+          border: solid 2px #ffffff;
+        }
+      }
+      .mini-stat-info {
+        font-size: 2rem;
+        height: 60px;
+        line-height: 60px;
+      }
+    }
+    .pagedescription {
+      width: 90%;
+      margin: 0 auto;
+      float: none;
+      clear: both;
+      .headertextone {
+        font-size: 1.7rem;
+      }
+    }
+    .pagedescriptionmore {
+      width: 90%;
+      margin: 0 auto;
+      float: none;
+      margin-bottom: 20px;
+      margin-top: 10px;
+      .headertext {
+        .headertexttwo {
+          font-size: 3.75rem;
+          font-weight: 600;
+        }
+        .headertextthree {
+          font-size: 1.7rem;
+          color: #bfc0f0;
+        }
+      }
+      .headerbtn {
+        .getstartedbtn {
+          height: 97px;
+          text-align: right;
+          line-height: 97px;
+          .btn {
+            background-color: #f84f00;
+            padding: 12px;
+            width: 275px;
+            font-weight: 600;
+            letter-spacing: .5px;
+          }
+        }
+      }
+    }
+  }
+  .mytagbody {
+    padding: 5px;
+    width: 90%;
+    margin: 20px auto;
+    .col-lg-6 {
+      padding: 0px;
+    }
+    .articles {
+      display: flex;
+      overflow: hidden;
+      flex-wrap: wrap;
+      align-items: stretch;
+    }
+    .articleShort {
+      display: flex;
+      //flex: 0 1 50%; //controll the width, defalt 1 1 0%
+      flex: 1 1 0%; //really buggy in safari IOS
+    }
+    .articleMain {
+      display: flex;
+      flex: 1 1 100%; //controll the width, default 1 1 0%
+    }
+    .card {
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      background-color: white;
+      padding: 10px 12px;
+      margin: 11px 9px;
+      width: 100%;
+      min-height: 170px;
+      transition: all cubic-bezier(.82, .84, .91, .91) .5s;
+      &:hover {
+        box-shadow: 2px 2px 10px 4px rgba(58, 50, 50, 0.32);
+      }
+      .card-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex: 1 1 auto;
+        .editableTitle {
+          height: 50px;
+          max-width: 429px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          margin-top: 9px;
+          font-weight: 600;
+        }
+        p,
+        h3 {
+          //max-width: calc(100% - 30px);
+          font-weight: 600;
+          padding-left: 33px;
+          &.pageLikes {
+            color: #8c8c8c;
+            font-size: 1.6rem;
+            font-weight: normal;
+            margin-bottom: 30px;
+          }
+        }
+        .tagsinput {
+          width: auto;
+          height: 45px;
+          margin: 0px 29px;
+          border: none;
+          span.tag {
+            background: #d4d2ea;
+            color: #7e7e7e;
+            a {
+              color: #7e7e7e;
+            }
+          }
+        }
+        div.tagsinput input {
+          padding: 0px;
+        }
+      }
+      .crossButton {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color: #ffffff;
+        cursor: pointer;
+        background-color: #eda02f;
+        border-radius: 2px;
+        padding: 1px 3px;
+        font-size: 2.20rem;
+      }
+    }
+    .card-image {
+      min-width: 130px;
+      min-height: 120px;
+      width: 130px;
+      height: 130px;
+      padding: 75px;
+      background-image: url(file:///media/sunil/72381305-a09c-4c77-b947-50dc3758cc4c/Viral9/assets/images/small/bg.jpg);
+      background-size: 100%;
+      background-repeat: repeat;
+      a {
+        img {
+          //min-width:162px;
+          display: block;
+          max-width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+
+.box h3 {
+  text-align: center;
+  position: relative;
+  top: 80px;
+}
+
+.box {
+  width: 70%;
+  height: 200px;
+  background: #FFF;
+  margin: 40px auto;
+}
+
+
+/*==================================================
+ * Effect 2
+ * ===============================================*/
+
+.effect2 {
+  position: relative;
+}
+
+.effect2:before,
+.effect2:after {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width: 300px;
+  background: #777;
+  box-shadow: 0 15px 10px #777;
+  transform: rotate(-3deg);
+}
+
+.effect2:after {
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
 }

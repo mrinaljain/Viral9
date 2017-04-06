@@ -14,7 +14,7 @@ $(document).ready(function () {
       $(this).removeClass('fa-heart');
       $(this).addClass('fa-heart-o');
     } else {
-      $(this).removeClass('fa-heart-o')
+      $(this).removeClass('fa-heart-o');
       $(this).addClass('fa-heart');
     }
   });
@@ -64,10 +64,10 @@ $(document).ready(function () {
     //$(this).css('position', 'relative');
   })
 
-  //  $('.tagsinput').tagsInput({
-  //    width: 'auto',
-  //    height: 45
-  //  });
+  //    $('.tagsinput').tagsInput({
+  //      width: 'auto',
+  //      height: 45
+  //    });
   $("#dropdownMenu7").on('click', function () {
     $('.advertiserDropdownMenu').slideToggle();
   })
@@ -75,5 +75,14 @@ $(document).ready(function () {
     $(this).text(function (i, text) {
       return text === "Overall" ? "My Rank" : "Overall";
     })
+  });
+  $('.articleShort').on('click', '.crossButton', function () {
+    var deletCard = confirm('confirm delet card?');
+    if (deletCard) {
+      $(this).closest(".col-lg-6").remove();
+    } else {
+      return;
+    }
+
   });
 });
